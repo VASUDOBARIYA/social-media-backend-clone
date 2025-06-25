@@ -18,5 +18,4 @@ const storage = multer.diskStorage({
     cb(null, uniqueName);
   }
 });
-
 export const upload = multer({ storage });
